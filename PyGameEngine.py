@@ -23,6 +23,8 @@ class Engine(PubSub):
 
     def _init_pygame(self, size=[854,480]):
         pygame.init()
+
+        self.width, self.height = size
         self.screen = pygame.display.set_mode(size)
 
     def init_font(self, fontsize=35):
@@ -84,6 +86,7 @@ class Engine(PubSub):
         self.emit('tick', elapsed)
 
     def _render(self):
+        self.screen.fill((0, 0, 0), (0, 0, self.width, self.height))
         self.emit('render', self.screen)
         pygame.display.update()
 
