@@ -81,8 +81,9 @@ if __name__ == '__main__':
 
     to_scroll = [
         ('clouds.png', 1),
-        ('mountains.png', 2.5),
+        ('mountains.png', 1.5),
         ('cloudy_day.png', 4),
+        ('hills.png', -1)
     ]
 
     def init(engine, event, *args):
