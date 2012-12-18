@@ -1,0 +1,24 @@
+PyScrolling
+
+
+Information
+----------------
+
+This project uses Python and Pygame to load and scroll images.
+
+
+Use
+----------------
+
+To use this program, you need Python (I used version 2.6) and pygame installed. The rest of the code is pure python.
+
+Some of the modules include unit tests, but the main entry point is PyImageScrolling which shows an example of how to use the classes to scroll several images at different rates based on events fired by the classes themselves.
+
+You could easily fire these events from keyboard / mouse or other input methods.
+
+
+Notes
+----------------
+
+If you are an artist (or simply have better looking seamless images), feel free to contact me with them!
+
